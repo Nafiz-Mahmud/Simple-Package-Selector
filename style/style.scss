@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  .head {
+    color: gold;
+    font-size: 4rem;
+    width: 70%;
+    margin: auto;
+  }
+
+  .line {
+    height: 0.1rem;
+    background: black;
+  }
+  .select {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .packOne {
+    margin-top: 3rem;
+    min-height: 60vh;
+    min-width: 30vw;
+    border-radius: 10%;
+    padding: 1rem 0.5rem;
+    border: 0.1rem dotted grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+    .text {
+      color: grey;
+    }
+    .basic {
+      background: grey;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5rem;
+      transition: all 0.4s ease;
+    }
+    &:hover {
+      box-shadow: 0.2rem 0.3rem black;
+      transform: scale(1.02);
+      border: 0.001rem solid black;
+      .text {
+        color: black;
+      }
+      .basic {
+        background: rgb(95, 95, 95);
+        &:hover {
+          background: black;
+          transform: scale(1.05);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .packTwo {
+    min-height: 30vh;
+    margin-top: 3rem;
+    min-height: 60vh;
+    min-width: 30vw;
+    border-radius: 10%;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border: 0.1rem dotted grey;
+    transition: all 0.4s ease;
+    .text {
+      color: grey;
+    }
+    .advance {
+      background: grey;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5rem;
+      transition: all 0.4s ease;
+    }
+    &:hover {
+      box-shadow: 0.2rem 0.3rem black;
+      transform: scale(1.02);
+      border: 0.001rem solid black;
+      .text {
+        color: black;
+      }
+      .advance {
+        background: rgb(95, 95, 95);
+        &:hover {
+          background: black;
+          transform: scale(1.05);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .packThree {
+    min-height: 30vh;
+    margin-top: 3rem;
+    min-height: 60vh;
+    min-width: 30vw;
+    border-radius: 10%;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border: 0.1rem dotted grey;
+    transition: all 0.4s ease;
+    .text {
+      color: grey;
+    }
+    .premium {
+      background: grey;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5rem;
+      transition: all 0.4s ease;
+    }
+    &:hover {
+      box-shadow: 0.2rem 0.3rem black;
+      transform: scale(1.02);
+      border: 0.001rem solid black;
+      .text {
+        color: black;
+      }
+      .premium {
+        background: rgb(95, 95, 95);
+        &:hover {
+          background: black;
+          transform: scale(1.05);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
